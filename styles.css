@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.main {
+    max-width: 100%;
+}
+
+img {
+    border-radius: 60%;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: left;
+}
+
+.name {
+    height: 100px;
+    display: inline;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+name.a {
+    font-size: 30px;
+    color: black;
+    font-family: monospace;
+}
+
+.bio {
+    height: 600px;
+    font-size: 17px;
+    font-family: monospace;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact {
+    height: 50px;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 20px;
+}
